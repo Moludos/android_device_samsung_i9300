@@ -57,5 +57,8 @@ TARGET_POWERHAL_VARIANT := pegasusq
 BOARD_SEPOLICY_DIRS += \
     device/samsung/i9300/selinux
 
+# Set buildtype official  
+NUCLEAR_BUILDTYPE := OFFICIAL
+
 # assert
 TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300
